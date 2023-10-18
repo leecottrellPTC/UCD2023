@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.leecottrell.AppTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.064 s <<< FAILURE! - in com.leecottrell.AppTest
+TestDealSuitCountIsThirteen(com.leecottrell.AppTest)  Time elapsed: 0.012 s  <<< FAILURE!
+org.junit.internal.ArrayComparisonFailure: arrays first differed at element [0]; expected:<13> but was:<18>
+	at com.leecottrell.AppTest.TestDealSuitCountIsThirteen(AppTest.java:44)
+
+Test_Card_Count_Should_Be_4(com.leecottrell.AppTest)  Time elapsed: 0.001 s  <<< FAILURE!
+org.junit.internal.ArrayComparisonFailure: arrays first differed at element [0]; expected:<4> but was:<2>
+	at com.leecottrell.AppTest.Test_Card_Count_Should_Be_4(AppTest.java:60)
+
