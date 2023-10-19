@@ -140,7 +140,7 @@ public class JFrameCardGame extends javax.swing.JFrame {
         displayWin(checkBet(2));
     }//GEN-LAST:event_btnLowActionPerformed
 
-    private void displayWin(boolean winner){
+    public void displayWin(boolean winner){
         if(winner){
             this.lblWin.setText("Good");
             if(cards.size() > 6){
@@ -152,7 +152,7 @@ public class JFrameCardGame extends javax.swing.JFrame {
             this.btnDeal.setVisible(true);
         }
     }
-    private boolean checkBet(int compare) {
+    public boolean checkBet(int compare) {
         switch (compare) {
             case 1:
                 //bet higher
