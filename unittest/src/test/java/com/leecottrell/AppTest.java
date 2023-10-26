@@ -55,6 +55,7 @@ public class AppTest
 
     }
 
+    //adda line for GitHub
     //parameterized tests
     @ParameterizedTest
     @ValueSource(strings = {"Computer", "Happy", "People"})
